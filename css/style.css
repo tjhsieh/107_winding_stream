@@ -1,0 +1,13 @@
+html, body {
+    background: #444444;
+    color: #DDDDDD;
+    padding-top: 50px;
+}
+.imgOpacity{
+    opacity: 0.5; //透明度設為 0.5
+    filter: alpha(opacity=50); // IE8 與更早的版本
+}
+.imgOpacity:hover{
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
